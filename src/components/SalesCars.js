@@ -1,10 +1,7 @@
-import { Fragment } from 'react';
-
-
 const SalesCars = props => {
 
     return (
-        <Fragment>
+        <>
             <section className="choose-car-section pt-120 pb-120 section-bg">
                 <div className="container">
                     <div className="row justify-content-center">
@@ -84,7 +81,7 @@ const SalesCars = props => {
                 </div>
             </section>
 
-        </Fragment>
+        </>
 
 
     );
